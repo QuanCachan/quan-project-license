@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <groupId>fr.henix.squash</groupId>
+        <artifactId>quan-project-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    
+    <artifactId>quan-project-license</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+    <!-- ============================ distribution ======================== -->
+    <repositories>
+        <!-- Our components -->
+        <repository>
+            <id>org.squashtest.repo.release</id>
+            <name>Squashtest repository for releases</name>
+            <url>http://repo.squashtest.org/maven2/release</url>
+        </repository>
+    </repositories>
+</project>
