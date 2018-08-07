@@ -11,6 +11,14 @@
     <artifactId>quan-project-license</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <url>https://github.com/QuanCachan/quan-project-license/</url>
+    
+    <scm>
+        <connection>scm:git:git@github.com:QuanCachan/quan-project-license.git</connection>
+        <developerConnection>scm:git:git@github.com:QuanCachan/quan-project-license.git</developerConnection>
+        <url>https://github.com/QuanCachan/quan-project-license/</url>
+        <tag>HEAD</tag>
+    </scm>
     
     <!-- ============================ distribution ======================== -->
     <repositories>
